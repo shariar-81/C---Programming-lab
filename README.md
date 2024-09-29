@@ -1,3 +1,3 @@
 # C---Programming-lab
 
-This folder is for C programming 
+This folder is for C  lab & programming 
