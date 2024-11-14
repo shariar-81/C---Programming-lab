@@ -2,37 +2,49 @@
  int main ()
 
  {
-     int score;
-     printf("Enter the score: ");
-     scanf("%d",&score);
+     int marks;
+     printf("Enter your marks: ");
+     scanf("%d",&marks);
 
-     if (score>=90)
+     if (marks >= 80 && marks <= 100)
      {
-         printf("Grade: A+",score);
+         printf("Congrats ! you scored grade: A+", marks);
      }
-     else if (score>=80)
+     else if (marks >= 75 && marks <= 80)
      {
-         printf("Grade: A",score);
+         printf("Congrats ! you scored grade: A", marks);
      }
-     else if (score>=70)
+     else if (marks >= 70 && marks <= 75)
      {
-         printf("Grade: A-",score);
+         printf("Congrats ! you scored grade: A-", marks);
      }
-     else if (score>=60)
+     else if (marks >= 65 && marks <= 70)
      {
-         printf("Grade: B",score);
+         printf("Congrats ! you scored grade: B+", marks);
      }
-     else if (score>=50)
+     else if (marks >= 60 && marks <= 65)
      {
-         printf("Grade: C",score);
+         printf("Congrats ! you scored grade: B", marks);
      }
-     else if (score>=40)
+     else if (marks >= 55 && marks <= 60)
      {
-         printf("Grade: D",score);
+         printf("Congrats ! you scored grade: B-", marks);
+     }
+     else if (marks >= 50 && marks <= 55)
+     {
+         printf("Congrats ! you scored grade: C+", marks);
+     }
+     else if (marks >= 45 && marks <= 50)
+     {
+         printf("Congrats ! you scored grade: C" ,marks);
+     }
+     else if (marks >= 40 && marks <= 45)
+     {
+         printf("Congrats ! you scored grade: D", marks);
      }
      else
      {
-         printf ("Grade: F",score);
+         printf("Sorry you are fail: Try your luck next time!");
      }
 
      return 0;
